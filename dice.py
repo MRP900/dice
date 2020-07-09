@@ -31,7 +31,7 @@ class D20(Dice):
             20 : "CRITICAL SUCCESS"
         }
         
-        # Overwrite parent class method
+        # Override parent class method
         def display_rolls(self):
             rollCount = 0
             if self.rolls_list:
